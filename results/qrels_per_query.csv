@@ -1,0 +1,51 @@
+query-id,n_judged,n_relevant,n_score2,text,n_words,max_possible_R@10
+1,1565,637,305,what is the origin of COVID-19,6,0.015698587127158554
+2,1251,314,243,how does the coronavirus respond to changes in the weather,10,0.03184713375796178
+3,1649,628,198,will SARS-CoV2 infected people develop immunity? Is cross protection possible?,10,0.01592356687898089
+4,1793,529,218,what causes death from Covid-19?,5,0.01890359168241966
+5,1643,614,294,what drugs have been active against SARS-CoV or SARS-CoV-2 in animal studies?,12,0.016286644951140065
+6,1562,959,638,what types of rapid testing for Covid-19 have been developed?,10,0.010427528675703858
+7,1331,481,433,are there serological tests that detect antibodies to coronavirus?,9,0.02079002079002079
+8,1837,632,247,how has lack of testing availability led to underreporting of true incidence of Covid-19?,14,0.015822784810126583
+9,1606,191,92,how has COVID-19 affected Canada,5,0.05235602094240838
+10,1100,475,278,has social distancing had an impact on slowing the spread of COVID-19?,12,0.021052631578947368
+11,1745,415,203,what are the guidelines for triaging patients infected with coronavirus?,10,0.024096385542168676
+12,1573,616,347,what are best practices in hospitals and at home in maintaining quarantine?,12,0.016233766233766232
+13,1822,867,235,what are the transmission routes of coronavirus?,7,0.011534025374855825
+14,1262,255,92,what evidence is there related to COVID-19 super spreaders,9,0.0392156862745098
+15,1941,423,165,how long can the coronavirus live outside the body,9,0.02364066193853428
+16,1600,387,156,how long does coronavirus remain stable  on surfaces?,9,0.025839793281653745
+17,1298,668,311,are there any clinical trials available for the coronavirus,9,0.014970059880239521
+18,1267,628,325,what are the best masks for preventing infection by Covid-19?,10,0.01592356687898089
+19,1449,111,45,what type of hand sanitizer is needed to destroy Covid-19?,10,0.09009009009009009
+20,1177,702,419,are patients taking Angiotensin-converting enzyme inhibitors (ACE) at increased risk for COVID-19?,12,0.014245014245014245
+21,1571,630,554,what are the mortality rates overall and in specific populations,10,0.015873015873015872
+22,1270,546,340,are cardiac complications likely in patients with COVID-19?,8,0.018315018315018316
+23,1245,371,190,what kinds of complications related to COVID-19 are associated with hypertension?,11,0.026954177897574125
+24,1194,404,264,what kinds of complications related to COVID-19 are associated with diabetes,11,0.024752475247524754
+25,1536,529,375,which biomarkers predict the severe clinical course of 2019-nCOV infection?,10,0.01890359168241966
+26,1657,778,635,what are the initial symptoms of Covid-19?,7,0.012853470437017995
+27,1421,849,289,what is known about those infected with Covid-19 but are asymptomatic?,11,0.011778563015312132
+28,1032,551,481,what evidence is there for the value of hydroxychloroquine in treating Covid-19?,12,0.018148820326678767
+29,1188,604,342,which SARS-CoV-2 proteins-human proteins interactions indicate potential for drug targets. Are there approved drugs that can be repurposed based on this information?,22,0.016556291390728478
+30,991,370,171,is remdesivir an effective treatment for COVID-19,7,0.02702702702702703
+31,1656,353,148,How does the coronavirus differ from seasonal flu?,8,0.028328611898016998
+32,1540,216,144,"Does SARS-CoV-2 have any subtypes, and if so what are they?",11,0.046296296296296294
+33,1221,281,168,What vaccine candidates are being tested for Covid-19?,8,0.03558718861209965
+34,1768,172,104,What are the longer-term complications of those who recover from COVID-19?,11,0.05813953488372093
+35,1316,218,188,What new public datasets are available related to COVID-19?,9,0.045871559633027525
+36,1147,611,508,What is the protein structure of the SARS-CoV-2 spike?,9,0.016366612111292964
+37,1144,450,317,What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?,11,0.022222222222222223
+38,1795,1266,689,What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?,12,0.007898894154818325
+39,1135,860,460,What is the mechanism of cytokine storm syndrome on the COVID-19?,11,0.011627906976744186
+40,1172,556,348,What are the observed mutations in the SARS-CoV-2 genome and how often do the mutations occur?,16,0.017985611510791366
+41,972,311,230,What are the impacts of COVID-19 among African-Americans that differ from the rest of the U.S. population?,17,0.03215434083601286
+42,707,243,222,Does Vitamin D impact COVID-19 prevention and treatment?,8,0.0411522633744856
+43,801,253,166,"How has the COVID-19 pandemic impacted violence in society, including violent crimes?",12,0.039525691699604744
+44,1139,483,318,How much impact do masks have on preventing the spread of the COVID-19?,13,0.020703933747412008
+45,1067,806,490,How has the COVID-19 pandemic impacted mental health?,8,0.01240694789081886
+46,631,182,85,what evidence is there for dexamethasone as a treatment for COVID-19?,11,0.054945054945054944
+47,979,420,317,what are the health outcomes for children who contract COVID-19?,10,0.023809523809523808
+48,696,444,257,what are the benefits and risks of re-opening schools in the midst of the COVID-19 pandemic?,16,0.02252252252252252
+49,1036,247,126,"do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?",20,0.04048582995951417
+50,838,137,47,what is known about an mRNA vaccine for the SARS-CoV-2 virus?,11,0.072992700729927

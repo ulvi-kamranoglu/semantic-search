@@ -5,3 +5,4 @@ results/*.npy
 *.faiss
 __pycache__/
 .ipynb_checkpoints/configs/local.yaml
+notebook.ipynb

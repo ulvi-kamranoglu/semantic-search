@@ -4,14 +4,18 @@ paths:
   raw: data/raw
   processed: data/processed
   results: results
-  corpus_raw: data/raw/corpus.parquet   # faylın real adını yaz
+  corpus_raw: data/raw/corpus.parquet
   qrels: data/raw/ground.csv
-  queries: data/raw/queries.csv         # Q01-Q50 (query_id, query_text)
+  queries: data/raw/queries.csv
 
-qrels:                                  # ground.csv-nin real sütun adlarını yaz
-  query_col: query_id
-  doc_col: _id
-  rel_col: relevance
+qrels:                       # ground.csv: query-id,corpus-id,score
+  query_col: query-id
+  doc_col: corpus-id
+  rel_col: score
+
+queries:                     # queries.csv: _id,title,text (sorğu mətni "text"-dədir)
+  id_col: _id
+  text_col: text
 
 dataset:
   total_size: 171332
