@@ -1,0 +1,56 @@
+seed: 42
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  results: results
+  corpus_raw: data/raw/corpus.parquet   # faylın real adını yaz
+  qrels: data/raw/ground.csv
+  queries: data/raw/queries.csv         # Q01-Q50 (query_id, query_text)
+
+qrels:                                  # ground.csv-nin real sütun adlarını yaz
+  query_col: query_id
+  doc_col: _id
+  rel_col: relevance
+
+dataset:
+  total_size: 171332
+  stages: [10000, 50000, 100000, 171332]   # B komandası ilə təsdiqlənməlidir
+  text_variants: [title, text, title_text]
+  default_variant: title_text              # A2-də müqayisədən sonra yenilənəcək
+
+schema:
+  raw: [_id, title, text]
+  processed: [_id, title, text, title_text, text_len]
+
+preprocessing:
+  drop_empty: true
+  drop_duplicates: true
+  min_text_len: 1
+
+embedding:
+  model: null                    # A2-dən sonra seçiləcək
+  candidates:
+    - sentence-transformers/all-MiniLM-L6-v2
+    - BAAI/bge-small-en-v1.5
+  max_seq_length: 256
+  normalize: true
+  query_prefix:                  # bge üçün sorğu prefiksi, yoxlanmalıdır
+    BAAI/bge-small-en-v1.5: "Represent this sentence for searching relevant passages: "
+
+index:
+  type: null                     # flat | hnsw | ivf
+  params: {}
+
+eval:
+  top_k: [5, 10, 20]
+  metrics: [P@5, P@10, R@10, MRR, NDCG@10]
+  relevant_threshold: 1          # relevance >= 1 relevant sayılır
+
+# Maşına xas dəyərlər configs/local.yaml-da override olunur.
+# Orada olmayanlar üçün defoltlar:
+runtime:
+  device: auto
+  num_threads: auto              # fiziki nüvə sayı
+  batch_size: 32
+  chunk_size: 20000

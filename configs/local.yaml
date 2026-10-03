@@ -1,0 +1,7 @@
+# Bunu configs/local.yaml kimi kopyala və öz maşınına görə dəyiş.
+# Yalnız sürət/yaddaşa təsir edən dəyərlər burada olmalıdır.
+runtime:
+  device: auto
+  num_threads: 4
+  batch_size: 32
+  chunk_size: 20000
